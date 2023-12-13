@@ -14,6 +14,7 @@
 		1D8F38262B242367003B99E7 /* SwiftAPIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F38252B242367003B99E7 /* SwiftAPIPracticeTests.swift */; };
 		1D8F38302B242367003B99E7 /* SwiftAPIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F382F2B242367003B99E7 /* SwiftAPIPracticeUITests.swift */; };
 		1D8F38322B242367003B99E7 /* SwiftAPIPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F38312B242367003B99E7 /* SwiftAPIPracticeUITestsLaunchTests.swift */; };
+		1D8F383F2B2426A8003B99E7 /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F383E2B2426A8003B99E7 /* PokemonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1D8F382B2B242367003B99E7 /* SwiftAPIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAPIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8F382F2B242367003B99E7 /* SwiftAPIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAPIPracticeUITests.swift; sourceTree = "<group>"; };
 		1D8F38312B242367003B99E7 /* SwiftAPIPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAPIPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D8F383E2B2426A8003B99E7 /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				1D8F38142B242366003B99E7 /* SwiftAPIPracticeApp.swift */,
 				1D8F38162B242366003B99E7 /* ContentView.swift */,
+				1D8F383E2B2426A8003B99E7 /* PokemonData.swift */,
 				1D8F38182B242367003B99E7 /* Assets.xcassets */,
 				1D8F381A2B242367003B99E7 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8F383F2B2426A8003B99E7 /* PokemonData.swift in Sources */,
 				1D8F38172B242366003B99E7 /* ContentView.swift in Sources */,
 				1D8F38152B242366003B99E7 /* SwiftAPIPracticeApp.swift in Sources */,
 			);
